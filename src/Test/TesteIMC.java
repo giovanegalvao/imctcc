@@ -22,7 +22,7 @@ public class TesteIMC {
 
   @Before
   public void setUp() throws Exception {
-    System.setProperty("webdriver.chrome.driver", "/home/giovane/Desktop/imctcc/chromedriver");  
+
     driver = new ChromeDriver();
     baseUrl = "http://localhost/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
